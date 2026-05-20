@@ -1,0 +1,1 @@
+Set-Location -Path 'C:\Users\aleja\OneDrive\Documentos\TT2\TT-Capara\backend'; $env:JAVA_HOME='C:\Program Files\Java\jdk-21.0.11'; & 'C:\Users\aleja\\.maven\\apache-maven-3.9.15\\bin\\mvn.cmd' clean test -q; Set-Content -Path 'C:\Users\aleja\OneDrive\Documentos\TT2\TT-Capara\backend\baseline-exit.txt' -Value $LASTEXITCODE
